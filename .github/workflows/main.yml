@@ -2,9 +2,7 @@ name: Java CI
 on:
   push:
     branches:
-      - test
-      - '**/feature.*/'
-      - master
+      - main
 jobs:
   job1:
     name: job1 Starting with a Maven workflow template
